@@ -9,6 +9,7 @@ body {
 .file-upload {
   background-color: #ffffff;
   margin: 0 auto;
+  margin-bottom:4%;
   padding: 4.6% 0;
     width:84.6%;
   border-radius: 10px;
@@ -131,8 +132,7 @@ body {
   color: #f73737;
 }
 .section{
-    margin-top:7.8%
-    
+margin-top:3%;    
 }
 
 .try-again-btn {
@@ -394,7 +394,23 @@ a:hover{
     font-size:1.4rem;
 }
 
+.ad-banner{
+    width:320px;
+    margin:0 auto;
+}
+.ad-banner2{
+    width:300px;
+        margin:0 auto;
+
+}
+.ad-banner3{
+     width:320px;
+    margin:0 auto;
+    
+}
 .celfont{
+    
+    
     font-size:1.7rem;
 }
 
