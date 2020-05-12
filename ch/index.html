@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <link rel="canonical" href="https://enneagram.ml/index.html">
     <meta name="title" content="인공지능 성격 테스트">
-    <meta name="subject" content="얼굴로 보는 인공지능 성격 테스트, 나의 성격유형을 알아보세요!">
+    <meta name="subject" content="얼굴로 보는 인공지능 성격 테스트, 나와 성격유형을 알아보세요!">
     <meta name="keywords" content="성격 테스트, 인공지능 테스트, 얼굴, 심리 테스트, 성격테스트, 에니어그램, 애니어그램, enneagram,에니어그렘 테스트,에니어그렘 검사,얼굴, 성격, AI 성격, 관상, AI 관상, 테스트, 토끼상, 곰상, 공룡상, 인공지능 동물상, AI 얼굴상">
     <meta name="description" content="얼굴로 보는 성격 테스트, 9가지 성격유형중 나의 성격은?! 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능이 보는 나의 얼굴이 나타내는 나의 성격을 알아보세요!">
     <meta name="author" content="seong9887">
@@ -23,7 +23,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>인공지능 성격테스트</title>
+    <title>Ai</title>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb7fad98b190f3e"></script>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -33,7 +33,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light nav-distance">
-        <a class="navbar-brand na-brand" href="#">인공지능 성격테스트</a>
+        <a class="navbar-brand na-brand" href="#">AI个性测试</a>
         <div class="youtube-cover d-flex flex-row-reverse">
             <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg/videos" class="youtube-link">제작도움:조코딩 유튜브 채널</a>
             <img src="" alt="" class="youtube-icon">
@@ -49,7 +49,7 @@
         <select onchange="changeLanguage(this)" class="custom-select col-8">
             <option value="ko" lang="ko">한국어</option>
             <option value="en" lang="en">English</option>
-            <option value="ch" lang="ch">中文</option>
+            <option value="ch" lang="ch" selected >中文</option>
         </select>
     </section>
     <script>
@@ -70,11 +70,11 @@
         }
     </script>
     <section class="pb-5 section">
-        <h1 class="title">인공지능 성격테스트 </h1>
-        <h2 class="subtitle">(aka-관상으로 보는
-            <a href="https://ko.wikipedia.org/wiki/%EC%97%90%EB%8B%88%EC%96%B4%EA%B7%B8%EB%9E%A8" class="anilink">에니어그램</a>)
+        <h1 class="title">AI个性测试 </h1>
+        <h2 class="subtitle">九型人脸
+
         </h2>
-        <h3 class="sub-conmment">-9가지 성격유형중 당신의 성격은?-</h3>
+        <h3 class="sub-conmment">-您有9种性格类型中的哪一种？-</h3>
 
     </section>
 
@@ -85,7 +85,7 @@
             <div class=" drag-text">
                 <img src="img/upload.svg" class="mt-5 upload">
 
-                <h3 class="mb-5 pb-2 pt-1 upload-text">얼굴 사진을 올려놓거나 눌러서 업로드하세요!</h3>
+                <h3 class="mb-5 pb-2 pt-1 upload-text">上传您的脸部照片或点击以上传它！</h3>
             </div>
         </div>
         <div class="file-upload-content">
@@ -94,7 +94,7 @@
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading...</span>
                 </div>
-                <p class="text-center">AI가 당신의 성격을 분석중입니다.</p>
+                <p class="text-center">人工智能正在分析您的个性</p>
             </div>
             <p class="result-message"></p>
             <div id="label-container" class="d-flex flex-column justify-content-around"></div>
@@ -104,7 +104,7 @@
 
             <div class="pt-3 image-title-wrap">
                 <button type="button p-2" class="try-again-btn" onclick="window.location.reload();">
-                    <span class="try-again-text">다른 사진으로 재시도</span>
+                    <span class="try-again-text">重试另一张图片</span>
                 </button>
             </div>
         </div>
@@ -209,49 +209,49 @@
             }
             switch (prediction[0].className) {
                 case "num1":
-                    resultTilte = "1번 개혁가";
-                    resultKey = " \"모든 것이 완벽해야 해\" ";
-                    resultMessage = "매사에 완벽을 기하고 스스로의 이상을 이루기 위해서 노력을 아끼지 않는다.\n 공정과 정의를 빼면 시체. 옳고 그름을 따지기 좋아하며 똑똑하고 늘 정돈되어 있다. '나는 올바른 길을 걷고 있다'  '내가 하는 일은 정확하다'라는 생각을 할 때 만족감을 느낀다. 하지만 때로는 오직 나만이 옳다라는 독선에 빠지기도 한다.";
+                    resultTilte = "1 整器";
+                    resultKey = " 一切都必须完美";
+                    resultMessage = "我们致力于完善一切并实现自己的理想。身体没有公平正义。他喜欢对与错，他很聪明并且总是整洁。当我想到“我在正确的道路上行走”和“我正在做自己正在做的事情”时，我感到很满足。但是有时候我以自以为是，只有我是对的。";
                     break;
                 case "num2":
-                    resultTilte = "2번 조력가";
-                    resultKey = " \"오직 나만이 모두를 도울수있어\" ";
-                    resultMessage = "정이 많고, 도움이 필요한 사람에게 손길을 내미는 것을 마다 하지 않는다. 예리한 직감으로 타인의 기분을 잘 파악하여 상대에게 맞춰주는 능력이 뛰어나다. 자신의 감정, 욕구보다는 타인의 욕구를 도와주는 것에 만족감을 느낀다. 그렇기 때문에 자신의 감정을 스스로 알아차리기가 힘들고 착한 사람 증후군에 빠질 확률이 높다 \n";
+                    resultTilte = "2 帮手";
+                    resultKey = " 只有我可以帮助所有人 ";
+                    resultMessage = "不要犹豫，与有很多感情和需要帮助的人接触。凭着敏锐的直觉，可以很好地把握他人的感受并将其与他人相匹配。我对帮助他人的需求而不是他们的感受和需求感到满意。这就是为什么很难独自注意到自己的感受，而您更容易患上好人综合症的原因。";
                     break;
                 case "num3":
-                    resultTilte = "3번 성취자";
-                    resultKey = " \"성공이 나를 증명해\" ";
-                    resultMessage = "뛰어난 능력과 진실성을 가지고 있고, 맹목적인 지위와 성공만을 추구하기도 한다. 모든 일에 효율을 중시하며 성공을 위해서 라면 자신의 희생은 중요하게 생각하지 않는다. 인생의 가치를 오직 '성공 와 실패'라는 척도에 두고 살아간다. 그렇기 떄문에 성공에 대한 집착으로 타인을 속이기도 하고 심지어 자기 자신마저도 기만하기도 한다";
+                    resultTilte = "3 成功者";
+                    resultKey = " 成功证明了我 ";
+                    resultMessage = "他具有卓越的能力和诚意，只追求盲目地位和成功。效率对一切都很重要，对于成功而言，自己的牺牲并不重要。我们仅以“成功与失败”的规模来生活。这就是为什么，由于对成功的痴迷，您会欺骗他人甚至欺骗自己。";
                     break;
                 case "num4":
-                    resultTilte = "4번 예술가";
-                    resultKey = "그 누구도 나를 이해할수없어";
-                    resultMessage = "뛰어난 창조력과 직관을 가지기도 하지만 때로는 자의식과잉과 우울증 빠지기 쉽다. 자신은 특별하고 유일한 존재라고 생각하고 살아가며 펑범한것을 싫어한다. 감정의 폭이 타인에 비해서 넓기 때문에 슬픔과 고독 등의 감정을 깊게 느끼며 감정의 기복이 큰 편이다. 감정의 폭이 넓기 때문에 타인의 감정에 대해서도 공감하며, 이해심이 깊다. 자신이 마치 드라마 속의 주인공인 것처럼 살아가고 싶어 하지만 그 마음속에는 가끔 평범하게 행복하게 살아가는 사람을 질투하는 감정이 들기도 한다 ";
+                    resultTilte = "4 艺人";
+                    resultKey = "没有人能理解我";
+                    resultMessage = "它具有出色的创造力和直觉，但有时容易出现自我意识和沮丧感。他认为自己很特别和独特，并且生活和讨厌美好的事物。因为情感的宽度比其他的宽，所以人们深深地感到悲伤和孤独的感觉，并且情感的释放也很大。由于情感广泛，我们也同情他人的情感并具有深刻的理解。他想过着自己的生活，好像他是戏剧中的主角一样，但有时他会嫉妒一个生活幸福而平凡的人。";
                     break;
                 case "num5":
-                    resultTilte = "5번 사색가";
-                    resultKey = "생각하자 생각하자 생각..";
-                    resultMessage = "지성과 창의력이 뛰어나다. 지식을 쌓아가는 것을 좋아하고 모든 것에 대해서 현명하게 판단하려고 늘 노력한다. 그렇기에 타인과 대화를 할때에도 자기가 할말에 대해서 생각을 하고 대답을 하기때문에 말이 많지않고 소심해 보이기도 한다. 감정보다는 분석력과 통찰력으로 객관적이게 상황을 판단하고 늘 초연하게 행동한다. 자신의 판단이 틀렸다는 것을 두려워하기 때문에 때로는 독선적이고, 남들을 무시하여 홀로 고립되기도 한다 즉 아싸인 사람들이 많다";
+                    resultTilte = "5 哲学家";
+                    resultKey = "让我们想想 让我们想想...";
+                    resultMessage = "我有很强的智慧和创造力。我喜欢积累知识，并总是尝试明智地判断一切。因此，即使与他人交谈时，我也想着我想说和回答的内容，所以我没有太多话要说和胆小。他们客观地通过分析能力和洞察力来判断情况，而不是用情绪来判断，总是首先采取行动，有时自以为是，无视别人，担心自己的判断是错误的。";
                     break;
                 case "num6":
-                    resultTilte = "6번 충성가";
-                    resultKey = "너만 믿을게, 다른사람은 믿을수 없어";
-                    resultMessage = "책임감이 강하며 안전을 추구하는 유형으로써 불확실한 것을 싫어하고 타인이 호의적인 말을 하거나 친절한 말을 하더라도 그 말이 진심이라고 믿지 않고 의심을 한다. 일상에서 늘 많은 부분에 걱정을 하며 살아간다. 지진, 자연재해, 전쟁 등 수많은 부분들에 대해서 걱정을 하며 두려움을 가지기도 한다. 하지만 자신의 공동체나 상대방에 대한 절대적인 믿음이 생긴다면 모든 것을 헌신하고 뛰어난 충성심을 가지기도 한다";
+                    resultTilte = "6 效忠";
+                    resultKey = "我只会相信你，我不会相信别人";
+                    resultMessage = "承担责任和寻求安全，讨厌不确定性，并怀疑有人以友善或友善的方式说这句话，但并不认为这是真的。我总是担心自己日常生活的许多方面。人们对地震，自然灾害和战争等许多方面感到担忧和担忧。但是，如果您对自己的社区或另一端有绝对的信心，则可以投入一切并具有很高的忠诚度。";
                     break;
                 case "num7":
-                    resultTilte = "7번 모험가";
-                    resultKey = "재미! 모험! 행복!";
-                    resultMessage = "다양한 것에 흥미를 느끼며 남들이 생각해내지 못한 기발함을 가지고 있다. \"모든 일은 다 잘 될 거야\"라는 낙관적인 생각을 가지며 살아가며 일상에 사소한 부분이라도 즐거움을 찾아낸다. 재미있는 것을 좋아하기 때문에 스스로가 매력적인 사람이 되기 위해서 노력한다. 그 때문에 이들과 함께 있다면 즐거운일이 많이 벌어진다.  하지만 흥미가 떨어진다면 쉽게 관심사를 바꾸고, 무언가를 할 때 힘듦을 느낀다면 쉽게 포기하기 때문에 책임감이 없고 인내심이 없다는 평가를 받기도 한다"
+                    resultTilte = "7 冒险家";
+                    resultKey = "好玩！冒险！快乐！";
+                    resultMessage = "他对各种事物都感兴趣，并且具有其他人没有想到的新颖性。我有个乐观的想法，那就是一切都会好起来的，即使在日常生活的最短时间内，我也能生活并找到快乐。我喜欢玩乐，所以我努力成为一个有魅力的人。这就是为什么和他们在一起时会发生很多乐趣的原因。但是，如果您不那么感兴趣，则可以轻松地改变自己的兴趣点；如果您在做某事时感到困难，则可以轻松地放弃，因此您会被评估为没有责任感和耐心。"
                     break;
                 case "num8":
-                    resultTilte = "8번 지도자";
-                    resultKey = "나를 따르라! ";
-                    resultMessage = "자신이 옳다고 생각하는 것에 대해서 전력으로 노력한다. 용기와 추진력이 뛰어나고 허세를 부리지 않고 상대방의 허영심 등을 꿰뚫어 통찰하기도 한다. 권력구조를 파악하는 능력이 뛰어나기 때문에 단체 및 회사에서 자신이 어떻게 해야 권력을 가질 수 있고 힘을 가질 수 있는지 잘 알아낸다. 건강할 때에는 약한 자의 편이 되어서 보호하고 도와주지만, 불건강한 정신이 될 때면 오히려 독선적이고 약자를 억압하고 타인의 의견을 묵살하고 그러한 행위에 대해서 그 어떤 양심의 가책을 느끼지 못하는 독재자가 될 수도 있다";
+                    resultTilte = "8 领队";
+                    resultKey = "跟我来！ ";
+                    resultMessage = "尽一切努力认为自己是对的。它具有极大的勇气和推动力，并且在没有洞察力的情况下也能渗透他人的虚荣心。掌握权力结构的能力非常出色，因此组织和公司都知道如何拥有权力。当您健康时，您会站在弱者一边，提供保护和帮助，但是当您处于不健康状态时，您就会变得自以为是，压迫弱者，无视他人的意见，成为独裁者，不会为这种行为感到any悔。";
                     break;
                 case "num9":
-                    resultTilte = "9번 중재자";
-                    resultKey = "평화! 싸우면안돼";
-                    resultMessage = "갈등, 싸움 등을 피하는 평화주의자이다. 웬만해서는 화를 내지 않는다 늘 온화하고 착하고 친절하지만 그렇다고 해서 화를 한 번도 내지 않는 것은 아니다. 소위 말해서 쌓아뒀던 화를 한 번에 팍 터트리는 사람이다. 외부의 요인으로 인한 긴장 갈등을 싫어하기 때문에 언쟁도 잘 하지 않고 타인의 의견을 잘 받아들인다. 그렇기에 편견이 없고 많은 사람들과 조화롭게 잘 지내기도 한다. 하지만 갈등을 싫어한다는 것은 결국 사회에 뛰어들어 투쟁을 싫어한다는 것이다 그렇기에 종종 안일하게 살아가고 게으르기도 하다";
+                    resultTilte = "9 调解员";
+                    resultKey = "平安！不要打架";
+                    resultMessage = "他是一个避免冲突和冲突的和平主义者。出于某种原因不要生气它总是温柔，友善和善良，但这并不意味着您永远不会生气。它是一个人，一次爆发所谓的累积愤怒。因为他讨厌由外部因素引起的紧张冲突，所以他没有很好地争论并接受他人的意见。这就是为什么没有偏见的原因，我可以与许多人相处融洽。但是，不喜欢冲突意味着，您毕竟会跳入社会并讨厌斗争，因此您经常生活和懒惰。";
             }
             let title = "<div class='" + prediction[0].className + "-animal-title alltitle'>" + resultTilte + "</div>"
             let celeb = "<div class='" + prediction[0].className + "-animal-celeb celfont pt-2 pb-2'>" + resultKey + "</div>"
@@ -270,31 +270,31 @@
                 console.log(prediction[i].className);
                 switch (prediction[i].className) {
                     case "num1":
-                        labelTitle = "개혁가";
+                        labelTitle = "整器";
                         break;
                     case "num2":
-                        labelTitle = "조력가";
+                        labelTitle = "帮手";
                         break;
                     case "num3":
-                        labelTitle = "성취자";
+                        labelTitle = "成功者";
                         break;
                     case "num4":
-                        labelTitle = "예술가";
+                        labelTitle = " 艺人";
                         break;
                     case "num5":
-                        labelTitle = "사색가";
+                        labelTitle = "哲学家";
                         break;
                     case "num6":
-                        labelTitle = "충성가";
+                        labelTitle = "效忠";
                         break;
                     case "num7":
-                        labelTitle = "모험가";
+                        labelTitle = "冒险家";
                         break;
                     case "num8":
-                        labelTitle = "지도자";
+                        labelTitle = "领队";
                         break;
                     case "num9":
-                        labelTitle = "중재자";
+                        labelTitle = "调解员";
                         break;
                 }
                 var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
